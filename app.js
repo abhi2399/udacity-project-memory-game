@@ -73,7 +73,8 @@ const previousCard = openedCards[0];
 if(openedCards.length === 1){ 
 card.classList.add("open", "show", "disable");    
 openedCards.push(this);     
-	
+addMove(); 
+ 	
 // we should compare our two opened card
 if(this.innerHTML === openedCards[0].innerHTML) {
 currentCard.classList.add("match");
@@ -96,8 +97,7 @@ previousCard.classList.remove ("open","show", "disable"); openedCards = [];
   }, 500);
 
 //new move
-addMove(); 
- 
+
 }  
 // we don't have opened card  
 } else {
