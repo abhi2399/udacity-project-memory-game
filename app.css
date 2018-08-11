@@ -33,7 +33,9 @@ h1 {
     font-weight: 300;
     text-align;  
 }
-
+/*
+ * Styles for the deck of cards
+ */
 .deck {
     width: 660px;
     min-height: 680px;
@@ -82,7 +84,9 @@ h1 {
   pointer-events: none;
 }
 
-
+/*
+ * Styles for the Score Panel
+ */
 .score-panel {
     text-align: left;
     width: 345px;
